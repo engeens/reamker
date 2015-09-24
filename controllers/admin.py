@@ -32,4 +32,7 @@ def sessions():
 
 def version():
     from _version import get_versions
-    return get_versions()['version']
+    version = get_versions()
+    if version['error']:
+        raise RuntimeError(version['error'])
+    return version['version'].split('+')[0]
