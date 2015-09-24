@@ -28,3 +28,8 @@ def sessions():
     set_db = SessionSetDb('web2py_session_cas', db)
     response.view = '%s/admin/home/sessions.html' % CONFIG_THEME
     return dict(sessions=set_db.sessions())
+
+
+def version():
+    from _version import get_versions
+    return get_versions()['version']
