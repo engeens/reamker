@@ -3,12 +3,18 @@ Reamker is Single Sign On (SSO) web application
 
 ##Features:
 
-1- Three roles: admin, editor, viewer and staff:
+1- Three roles: admin, editor, viewer and staff.
+
 2- Support multiples LDAPs (Open Ldap, MS Active Directory, Notes Domino) or local database for authentication.
+
 3- Can talk with SQLite, PostgreSQL, MySQL, MSSQL, FireBird, Oracle, IBM DB2, etc.
+
 4- Full users accountability: open session, time zone and IPs request, etc.
+
 5- Multi views for the back end frontend design.
+
 6- Custom email templates for sending notification to the users.
+
 7- Custom error pages...
 
 
